@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom'
-import Home from "./Home";
 function Navbar() {
 
     return (
@@ -8,8 +7,8 @@ function Navbar() {
             <h1 className = 'nav-bar logo'> Travora</h1>
             <ul className='nav-menu'>
                 <li>
-                    <Link to ='/Home'>
-                    <i className="fa-solid fa-house" onClick={Home}></i>Home
+                    <Link to ='/'>
+                    <i className="fa-solid fa-house"></i>Home
                     </Link>
                     <Link to ='/About'>
                     <i className="fa-solid fa-circle-info"></i>About
