@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom'
-
+import Home from "./Home";
 function Navbar() {
 
     return (
@@ -9,7 +9,7 @@ function Navbar() {
             <ul className='nav-menu'>
                 <li>
                     <Link to ='/Home'>
-                    <i className="fa-solid fa-house"></i>Home
+                    <i className="fa-solid fa-house" onClick={Home}></i>Home
                     </Link>
                     <Link to ='/About'>
                     <i className="fa-solid fa-circle-info"></i>About
@@ -20,8 +20,8 @@ function Navbar() {
                     <Link to ='/Contact'>
                     <i className="fa-solid fa-address-book"></i>Contact
                     </Link>
-                    <Link to ='/Sign Up'>
-                    <i className="fa-solid fa-house"></i>Sign Up
+                    <Link to ='/SignUp'>
+                    <i className="nav-links-mobile"></i>Sign Up
                     </Link>
                 </li>
 
