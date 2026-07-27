@@ -1,9 +1,11 @@
 import Hero from "../components/Hero";
 import AboutImg from "../assets/a.jpg";
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 function About() {
   return (
     <>
+
       <Hero
         cName="relative w-full h-[70vh]"
         imgClass="w-full h-full object-cover"
@@ -14,6 +16,7 @@ function About() {
         HeroImg={AboutImg}
         title="About"
       />
+      <AboutUs/>
       <Footer />
     </>
   );
