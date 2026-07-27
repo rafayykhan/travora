@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import AboutImg from "../assets/c.jpg";
 import Tourcard from "../components/TourCard";
-
+import Footer from "../components/Footer";
 function Services() {
   return (
     <>
@@ -17,6 +17,7 @@ function Services() {
       />
 
       <Tourcard />
+      <Footer />
     </>
   );
 }

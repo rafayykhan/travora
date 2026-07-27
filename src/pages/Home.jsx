@@ -9,7 +9,7 @@ import Trip1 from "../assets/5.jpg";
 import Trip2 from "../assets/8.jpg";
 import Trip3 from "../assets/6.jpg";
 import Tourcard from "../components/TourCard";
-
+import Footer from "../components/Footer";
 function Home() {
   return (
     <>
@@ -83,6 +83,7 @@ function Home() {
           text="France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower."
         />
       </Tour>
+      <Footer />
     </>
   );
 }
