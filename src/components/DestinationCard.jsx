@@ -1,13 +1,9 @@
 const Destination = (props) => {
   return (
     <div className={props.containerClass}>
-      <h1 className={props.titleClass}>
-        {props.title}
-      </h1>
+      <h1 className={props.titleClass}>{props.title}</h1>
 
-      <p className={props.subtitleClass}>
-        {props.subtitle}
-      </p>
+      <p className={props.subtitleClass}>{props.subtitle}</p>
 
       <div className={props.contentClass}>
         {/* Text */}
@@ -16,9 +12,7 @@ const Destination = (props) => {
             {props.destinationTitle}
           </h2>
 
-          <p className={props.descriptionClass}>
-            {props.description}
-          </p>
+          <p className={props.descriptionClass}>{props.description}</p>
         </div>
 
         {/* Images */}
