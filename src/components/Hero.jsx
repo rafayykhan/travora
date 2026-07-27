@@ -5,20 +5,29 @@ function Hero(props) {
         <img
           src={props.HeroImg}
           alt="HeroImg"
+          className={props.imgClass}
         />
       </div>
 
-      <div className = "hero-text">
-        <h1>
-            {props.title}
+      <div className={props.textClass}>
+        <h1 className={props.titleClass}>
+          {props.title}
         </h1>
-        <p>
-            {props.text}
+
+        <p className={props.paraClass}>
+          {props.text}
         </p>
-        <a href="/"> Travel Plan</a>
+
+        <a
+          href={props.url}
+          className={props.buttonClass}
+        >
+          {props.urlText}
+        </a>
       </div>
     </>
   );
 }
+
 
 export default Hero;
